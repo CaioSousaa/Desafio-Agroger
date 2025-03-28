@@ -1,0 +1,81 @@
+.card-content {
+  margin-right: 0.9rem;
+  margin-top: 1rem;
+  width: 52rem;
+  height: 7.5rem;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1,
+  span,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .description-car {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    h1 {
+      font-weight: 500;
+    }
+
+    span {
+      font-weight: 500;
+    }
+
+    p {
+      font-weight: 400;
+      color: #6d7077;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+
+    .large-button {
+      height: 5rem;
+      width: 12rem;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background: #388468;
+      transition: all 0.2s ease-in-out;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      cursor: pointer;
+
+      span {
+        font-weight: 600;
+        font-size: large;
+        color: #f9f9f9;
+      }
+
+      svg {
+        width: 1.875rem;
+        height: 1.875rem;
+        color: #f9f9f9;
+      }
+
+      &:active {
+        background: #2c6f52;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transform: scale(0.98);
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content-home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 52rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+
+  .request-button {
+    border: none;
+    border-radius: 30px;
+    width: 50rem;
+    margin-right: 0.9rem;
+    height: 4rem;
+    background: #388468;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    span {
+      font-weight: bold;
+      font-size: 2rem;
+      color: #f9f9f9;
+    }
+
+    .circular-contour {
+      border-radius: 9999999px;
+      width: 3rem;
+      height: 3rem;
+      background: #f9f9f9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+
+      svg {
+        width: 1.9rem;
+        height: 1.9rem;
+        color: #388468;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    &:active {
+      background: #2c6f52;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      transform: scale(0.98);
+
+      .circular-contour {
+        transform: scale(0.98);
+      }
+
+      .circular-contour svg {
+        transform: scale(0.98);
+      }
+    }
+  }
+}
