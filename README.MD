@@ -16,10 +16,11 @@ A aplicação foi estilizada usando SASS, que é um pré-processador de CSS, seg
 
 ### Tecnologias usadas
 
-- ReactJS
+- Vite-ReactJS
 - AXIOS
 - Jest
 - Typescript
+- SASS
 
 <br>
 
