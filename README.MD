@@ -49,3 +49,13 @@ src/
 - Primeiramente, você deve usar o comando: `git clone https://github.com/CaioSousaa/Desafio-Agroger.git` para clonar o projeto na sua máquina.
 - Após isso, rode o comando `npm install` para instalar as dependências e gerar a pasta node_modules
 - Após isso, o projeto está pronto para rodar usando o comando `npm run dev`
+
+### TELAS
+
+## HOME
+
+![Tela Inicial](./.github/home.png)
+
+## Card de requisições
+
+![Tela Inicial](./.github/card-request.png)
